@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ 
+header{
+    width:100%;
+    height:600px;
+}
+
+video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+h2{
+    width:49%;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background:#fff;
+    text-align:center;
+/*    font-size:150px;*/
+    font-size:12vw;
+    line-height:36vh;
+    mix-blend-mode:screen;
+}
+
+span{
+    color:#fff;
+}
+
+main{
+    width:100%;
+    height:auto;
+    background-color:palevioletred;
+    position:relative;
+    padding:5px;
+}
+
+section{
+    position:relative;
+    width:100%;
+    height:auto;
+    text-align:center;
+}
+
+section img{
+    width:250px;
+    height:auto;
+    margin:20px;
+    position:absolute;
+    position:sticky;
+    top:0;
+}
+
+/*
+.kaire{
+    left:0;
+}
+
+.desine{
+    right:0;
+}
+*/
+
+h3{
+    width:50%;
+    height:auto;
+    color:coral;
+    font-size:7vw;
+    text-align:center;
+    margin:0 auto;
+}
+
+p{
+    width:40%;
+    height:auto;
+    font-size:20px;
+    color:#fff;
+    text-align:justify;
+    margin:30px auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif;*/
+
+footer{
+    width:100%;
+    height:250px;
+    background-image:url(foto/hart.png);
+    background-repeat:repeat;
+    background-size:contain;
+    background-position:bottom;
+    padding:5px;    
+}
+
+footer p{
+    color:black;
+    text-align:center;
+    margin-top:50px;
+    font-size:30px;
+}
